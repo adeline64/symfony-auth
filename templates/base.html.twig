@@ -6,6 +6,9 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        {% block nav %}
+            {% include "template_parts/_nav.html.twig" %}
+        {% endblock %}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
